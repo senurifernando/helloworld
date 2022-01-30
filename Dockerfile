@@ -2,7 +2,7 @@
 FROM openjdk:16
 
 #create a new app directory for helloworld application
-RUN mkdir /app
+RUN mkdir /src/app
 
 # Copy the app files from host machine
 COPY out/production/helloworld/com/example/helloworld/ /app
